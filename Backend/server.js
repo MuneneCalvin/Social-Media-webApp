@@ -22,7 +22,7 @@ app.use('/auth', authRouter);
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URL, {useNewUrlParser: true, useUnifiedTopology: true})
     .then(() => {
-        console.log('Connected to MongoDB');
+        console.log('Connected successfully to MongoDB');
     })
     .catch((error) => {
         console.log(error.message);
