@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "type": "module",
   "engines": {
     "node": ">=19.0.1"
@@ -15,6 +15,7 @@
   "author": "Shawn Calvin",
   "license": "ISC",
   "dependencies": {
+    "assert": "^2.0.0",
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
